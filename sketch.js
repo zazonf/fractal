@@ -29,11 +29,11 @@ function branch(len)
   {
     push();
     rotate(ang);
-    branch(len * 0.2)
+    branch(len * 0.67)
     pop();
     push();
     rotate(-ang);
-    branch(len * 0.2)
+    branch(len * 0.67)
     pop();  
   }
   
