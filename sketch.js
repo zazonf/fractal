@@ -25,7 +25,7 @@ function branch(len)
 {
   line(0,0,0,-len);
   translate(0, -len)
-  if(len > 2)
+  if(len > 3)
   {
     push();
     rotate(ang);
