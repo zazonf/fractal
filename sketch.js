@@ -25,15 +25,15 @@ function branch(len)
 {
   line(0,0,0,-len);
   translate(0, -len)
-  if(len > 3)
+  if(len > 4)
   {
     push();
     rotate(ang);
-    branch(len * 0.5)
+    branch(len * 0.67)
     pop();
     push();
     rotate(-ang);
-    branch(len * 0.5)
+    branch(len * 0.67)
     pop();  
   }
   
