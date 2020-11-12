@@ -6,6 +6,7 @@ function setup() {
 }
 
 function draw() {
+  resizeCanvas(windowWidth, windowHeight);
   ang = slider.value();
   background(127);
   noStroke();
