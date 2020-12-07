@@ -13,7 +13,7 @@ function draw() {
   fill(50);
   translate(0,0);
   textSize(32);
-  text(ang * (2*180) / PI, 20,40)
+  text(round(ang * (2*180) / PI, 20,40))
   text(ang, 20,80)
   translate(width/2,height);
   //2×180°/π
